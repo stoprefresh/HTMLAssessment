@@ -4,7 +4,7 @@
 
   </head>
   <body>
-    <h1>TEXT</h1>
+    <h1>Text</h1>
 
     <div id="lorem">
       <p>
@@ -105,6 +105,7 @@
                 <li>Peyton Manning(injured)</li>
               </ol>
           </ul>
+          <br>
 
           <li>
             <img src="bears.jpg" target="_blank" width="50" height="50">
@@ -127,8 +128,39 @@
     <div id="form">
       <h1>Form</h1>
 
+      <form action="assessment.html">
+        First:
+        <input type="text" name="firstName">
+        Last:
+        <input type="text" name="lastName">
+          <br>
+          <br>
+        Favorite Sport:
+        <br>
+        <select>
+          <option value="soccer">Soccer</option>
+          <option value="football">Football</option>
+          <option value="baseball">Baseball</option>
+          <option value="hockey">Hockey</option>
+        </select>
+        <br>
+        <br>
+      <form action="assessment.html">
+        I have:
+        <input type="checkbox" name="attended" value="Attended"> Attended
+        <input type="checkbox" name="played" value="Played"> Played
+        <input type="checkbox" name="coached" value="Choached" checked> Coached
+        <input type="checkbox" name="betOn" value="BetOn" checked> Bet On <br>
+        this sport.
+      </form>
+
+        For this sport I prefer the:
+        <input type="radio" name="amateur" value="Amateur"> Amateur
+        <input type="radio" name="college" value="College"> College
+        <input type="radio" name="professional" value="Professional"> Professional <br>
+        <br>
+        <input type="submit" value="Submit Query">
+      </form>
     </div>
-
-
   </body>
 </html>
