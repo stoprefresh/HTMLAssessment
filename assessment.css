@@ -1,0 +1,49 @@
+h1, h2, h3, h4, h5, h6 {
+  color: rgb(32, 113, 140);
+  font-style: sans-serif
+}
+
+table {
+  border-style: dashed;
+  border: 2px solid red;
+}
+
+blockquote {
+  background-color: grey;
+  color: rgb(43, 247, 255);
+}
+
+#teamRoster li {
+  list-style-type: square;
+}
+#teamRoster a:visited, a:link{
+  display: hyperLink;
+  color: green;
+  text-decoration: none;
+}
+
+#teamRoster a:hover{
+  color: blue;
+}
+
+#teamRoster img {
+  opacity: 0;
+}
+
+#teamRoster > li:nth-child(1) {
+  list-style-type: none;
+}
+
+#teamRoster > li:nth-child(2) {
+  list-style-type: none;
+}
+
+#teamRoster > ul:last-of-type{
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/5/5c/Chicago_Bears_logo.svg);
+  background-repeat: no-repeat;
+  background-size: 100px, 100px;
+}
+
+#checkbox-grid li {
+  list-style-type: none;
+}
